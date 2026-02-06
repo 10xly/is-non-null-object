@@ -1,6 +1,6 @@
 # `@is-(unknown)/is-non-null-object`
 
-> Check if the given value is a non-null object.
+> Check if the given value is a non-null object. Returns true for functions and arrays, because they are objects in JavaScript.
 
 ## Install
 
@@ -33,6 +33,9 @@ isNonNullObject({})
 // > true
 
 isNonNullObject([])
+// > true
+
+isNonNullObject(() => {})
 // > true
 
 isNonNullObject(null)

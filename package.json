@@ -1,6 +1,6 @@
 {
   "name": "@is-(unknown)/is-non-null-object",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check if a value is a non-null object.",
   "main": "index.js",
   "repository": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/is-unknown/is-non-null-object#readme",
   "dependencies": {
-    "isnonnullobject2": "^1.0.0"
+    "isnonnullobject2": "^1.0.3"
   }
 }
